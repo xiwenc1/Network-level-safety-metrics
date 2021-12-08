@@ -52,6 +52,8 @@ from sklearn import preprocessing
 from sklearn.linear_model import LinearRegression
 
 import sys
+
+
 sys.path.append('C://Users/MaxGr/Desktop/Python/PII/GPSMapping')
 
 
@@ -63,7 +65,28 @@ Project_PATH = os.path.dirname(os.path.abspath('__file__'))
 
 
 
+def get_target_i(dataframe, target_index):
+    '''
+    Get target i from all frames
+    
+    '''
 
+    target_i_index = np.where(dataframe[:,index_Target]==target_index)[0]
+    target_i       = dataframe[ target_i_index ]
+    
+    return target_i, target_i_index
+
+
+def get_frame_i(dataframe, frame_index):
+    '''
+    Get frame i from all frames
+    
+    '''
+
+    frame_i_index = np.where(dataframe[:,index_Frame]==frame_index)[0]
+    frame_i       = dataframe[ frame_i_index ]
+    
+    return frame_i, frame_i_index
 
 
 
@@ -395,18 +418,13 @@ def get_TTC(dataframe):
 
 
 
-
-
-
-if __name__ == '__main__':
-
-
 '''
    metrics extraction
 
 '''
 
 
+if __name__ == '__main__':
 
     File_path = './test/traffic/'   #trajectory file
     File_List = os.listdir(File_path)
