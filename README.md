@@ -8,7 +8,7 @@ An important application of DL methods is extracting driving safety metrics from
 
 ## Pipeline
 
-
+![iamge](https://github.com/XiwenChen-Clemson/Network-level-safety-metrics/blob/main/images/pipeline.png)
 
 
 
