@@ -27,7 +27,8 @@ The segments and the keypoints are shown below.
 
 
 ## Some refs
-YOLOv5+DeepSort is modified from this [repo](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
+YOLOv5+DeepSort is used to extracted the trajectories.
+Our code is modified from this [repo](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
 ```
 @misc{yolov5deepsort2020,
     title={Real-time multi-object tracker using YOLOv5 and deep sort},
