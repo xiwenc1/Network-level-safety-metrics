@@ -1,1 +1,1 @@
-Some figures used in the paper
+Some figures used in the paper.
