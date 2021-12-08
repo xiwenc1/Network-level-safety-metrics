@@ -12,8 +12,13 @@ An important application of DL methods is extracting driving safety metrics from
 
 
 
-## Metrics
+## Perspective transformation
+The segments and the keypoints are shown below.
+![image](https://github.com/XiwenChen-Clemson/Network-level-safety-metrics/blob/main/images/keypoints.png)
 
+
+## Proposed Metrics
+![iamge](https://github.com/XiwenChen-Clemson/Network-level-safety-metrics/blob/main/images/metrics_table.PNG)
 
 
 
